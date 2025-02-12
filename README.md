@@ -1,57 +1,31 @@
-## Readme
+# Simple Website
 
-# Data Analysis Tool
+This is a simple website consisting of a homepage and an About Us page, designed with a modern color theme.
 
-A Python application for performing data analysis on CSV files. This tool allows you to clean, process, and visualize data with ease.
-
-## Table of Contents
-
-- [Data Analysis Tool](#data-analysis-tool)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Features](#features)
-  - [Installation](#installation)
-  - [Usage](#usage)
-
-## Introduction
-
-This tool is designed to help data scientists and analysts quickly and easily process and analyze data from CSV files. With a focus on simplicity and ease of use, it provides various functionalities for data cleaning, transformation, and visualization.
+## Pages
+- **index.html** - The homepage containing navigation links to other pages.
+- **about.html** - The About Us page with information about the website.
+- **contact.html** - A placeholder for the Contact Us page.
+- **products.html** - A placeholder for the Products page.
 
 ## Features
+- Responsive navigation menu
+- Clean and modern color scheme
+- Styled content sections with a simple yet elegant design
 
-- Load and inspect CSV files
-- Clean and preprocess data
-- Generate summary statistics
-- Create various types of plots (bar charts, histograms, scatter plots)
-- Export cleaned data to a new CSV file
+## Technologies Used
+- HTML5
+- CSS3
 
-## Installation
+## How to Use
+1. Download or clone the repository.
+2. Open `index.html` in a web browser to view the homepage.
+3. Navigate to different sections using the navigation menu.
 
-To use this tool, you'll need to have Python installed on your machine. Follow the instructions below to set up the environment and install the necessary dependencies.
+## Future Improvements
+- Add a contact form on `contact.html`
+- Implement a product listing page with more details
+- Improve styling with CSS frameworks like Bootstrap
 
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/yourusername/data-analysis-tool.git
-    cd data-analysis-tool
-    ```
-
-2. Create and activate a virtual environment (optional but recommended):
-
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-
-3. Install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-To use the data analysis tool, run the `main.py` script with the path to your CSV file as an argument:
-
-```bash
-python main.py path/to/your/data.csv
+## License
+This project is open-source and free to use under the MIT License.
